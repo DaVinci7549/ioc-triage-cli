@@ -1,0 +1,19 @@
+# Virtual Environment & Python cache
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets - Never upload credentials
+.env
+.env.*
+!.env.example
+
+# Testing & IDE caches
+.pytest_cache/
+.vscode/
+.idea/
+
+# Output dumps
+*.log
+triage_output_*.json
